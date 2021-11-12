@@ -1,0 +1,20 @@
+Item,Qty,Reference(s),Value,Footprint,Datasheet
+1,6,"C1, C2, C5, C6, C7, C8",47nF,Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm,~
+2,4,"C3, C4, C9, C10",100nF,Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm,~
+3,3,"H1, H2, H3",MountingHole,MountingHole:MountingHole_3.2mm_M3_DIN965_Pad,~
+4,1,J1,POWER,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~
+5,1,J2,IN,MSS_Connector:CUI_RCJ-21XX, ~
+6,1,J3,OUT,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~
+7,1,J4,OUT,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,~
+8,1,J5,OUT,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~
+9,1,R1,2.7K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,~
+10,1,R2,4.7K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,~
+11,2,"R3, R4",22K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,~
+12,4,"R5, R6, R10, R14",10K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,~
+13,2,"R7, R11",1K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,~
+14,2,"R8, R12",2K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,~
+15,2,"R9, R13",18K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,~
+16,1,RV1,47K,Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal,~
+17,1,RV2,100K,Potentiometer_THT:Potentiometer_Piher_T-16H_Double_Horizontal,~
+18,1,RV3,5K,Potentiometer_THT:Potentiometer_Piher_T-16H_Double_Horizontal,~
+19,2,"U1, U2",TL082,Package_DIP:DIP-8_W7.62mm_LongPads,https://www.ti.com/lit/ds/symlink/tl082-n.pdf

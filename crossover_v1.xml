@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\eho28\repos\crossover_v1\crossover_v1.kicad_sch</source>
+    <date>11/11/21 08:34:45</date>
+    <tool>Eeschema (5.99.0-12960-gccd3a1e6a9)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>crossover_v1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/FiltroPasaBajo/" tstamps="/4f10e618-7e36-4d42-bdbd-7343997abb5f/">
+      <title_block>
+        <title>Filtro pasa bajos Ajustable 30Hz a 338Hz</title>
+        <company>https://maykolrey.com</company>
+        <rev>v1.0.0</rev>
+        <date>2021-07-11</date>
+        <source>pasa-bajo-ajust.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/filtroPasaAltas1/" tstamps="/cb22272f-cc58-4415-bc90-edc7a2b801fd/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>filtroPasaAltas.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/filtroPasaAltas/" tstamps="/5d618a4f-ea7b-45fc-a098-ab73caddb378/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>filtroPasaAltas.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="crossover_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>716790e3-57f1-470c-9d6c-bd5aac821563</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="crossover_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9e450b7-8bb4-4f85-b345-ea1efd0c93d8</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="crossover_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a4dfeb1-474d-4ed1-986e-01114cad5e06</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="crossover_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9dcaa53c-30da-4b17-8beb-5ec9241306f8</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="crossover_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8de9e686-7f35-4a6f-8a37-ad3665d2cc46</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="crossover_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7325a3b4-420d-4a35-8fd8-9b564e427a8a</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="crossover_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e06a1b5-d3d8-42a5-ab72-c739f9be3d2f</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>POWER</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="crossover_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed954505-06b7-4297-aa91-a8d758719efa</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>IN</value>
+      <footprint>MSS_Connector:CUI_RCJ-21XX</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial_x2" description="double coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="crossover_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f7b0716-6bfc-4048-bb57-285868057cd2</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>OUT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="crossover_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3fe54f51-fba7-40af-97b7-ebbce31e4f57</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>OUT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="crossover_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46ea23d7-b562-4bde-8a67-e516a4c3b8e0</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>OUT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="crossover_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ce1a940-0be3-440d-ae70-b904595335ec</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>22K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="crossover_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf724a77-dd1d-447b-8093-a0d664631734</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>22K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="crossover_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e906c963-7fdc-4df4-91ac-d9699dedc263</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>47K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="crossover_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e4582ea-69bb-4f5e-ac5f-f92be5661a52</tstamps>
+    </comp>
+    <comp ref="RV3">
+      <value>5K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Piher_T-16H_Double_Horizontal</footprint>
+      <libsource lib="Device" part="R_Potentiometer_Dual" description="Dual potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="crossover_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a803a9d-d725-4c58-b268-623837230f56</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TL082</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_LongPads</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tl082-n.pdf</datasheet>
+      <libsource lib="MSS_Operational-Amplifier" part="TL082" description="TL082 Wide Bandwidth Dual JFET Input Operational Amplifier"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="crossover_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>217ead8d-6f3c-4769-a12c-19ad9a9da98a</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>47nF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="FiltroPasaBajo"/>
+      <property name="Sheetfile" value="pasa-bajo-ajust.kicad_sch"/>
+      <sheetpath names="/FiltroPasaBajo/" tstamps="/4f10e618-7e36-4d42-bdbd-7343997abb5f/"/>
+      <tstamps>00000000-0000-0000-0000-000060d9542a</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>47nF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="FiltroPasaBajo"/>
+      <property name="Sheetfile" value="pasa-bajo-ajust.kicad_sch"/>
+      <sheetpath names="/FiltroPasaBajo/" tstamps="/4f10e618-7e36-4d42-bdbd-7343997abb5f/"/>
+      <tstamps>00000000-0000-0000-0000-000060d947bc</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>2.7K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="FiltroPasaBajo"/>
+      <property name="Sheetfile" value="pasa-bajo-ajust.kicad_sch"/>
+      <sheetpath names="/FiltroPasaBajo/" tstamps="/4f10e618-7e36-4d42-bdbd-7343997abb5f/"/>
+      <tstamps>00000000-0000-0000-0000-000060d9231c</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>4.7K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="FiltroPasaBajo"/>
+      <property name="Sheetfile" value="pasa-bajo-ajust.kicad_sch"/>
+      <sheetpath names="/FiltroPasaBajo/" tstamps="/4f10e618-7e36-4d42-bdbd-7343997abb5f/"/>
+      <tstamps>00000000-0000-0000-0000-000060d9168f</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="FiltroPasaBajo"/>
+      <property name="Sheetfile" value="pasa-bajo-ajust.kicad_sch"/>
+      <sheetpath names="/FiltroPasaBajo/" tstamps="/4f10e618-7e36-4d42-bdbd-7343997abb5f/"/>
+      <tstamps>00000000-0000-0000-0000-000060d9bed1</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="FiltroPasaBajo"/>
+      <property name="Sheetfile" value="pasa-bajo-ajust.kicad_sch"/>
+      <sheetpath names="/FiltroPasaBajo/" tstamps="/4f10e618-7e36-4d42-bdbd-7343997abb5f/"/>
+      <tstamps>00000000-0000-0000-0000-000060d9cf75</tstamps>
+    </comp>
+    <comp ref="RV2">
+      <value>100K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Piher_T-16H_Double_Horizontal</footprint>
+      <libsource lib="Device" part="R_Potentiometer_Dual" description="Dual potentiometer"/>
+      <property name="Sheetname" value="FiltroPasaBajo"/>
+      <property name="Sheetfile" value="pasa-bajo-ajust.kicad_sch"/>
+      <sheetpath names="/FiltroPasaBajo/" tstamps="/4f10e618-7e36-4d42-bdbd-7343997abb5f/"/>
+      <tstamps>00000000-0000-0000-0000-000060d9708c</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>47nF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="filtroPasaAltas1"/>
+      <property name="Sheetfile" value="filtroPasaAltas.kicad_sch"/>
+      <sheetpath names="/filtroPasaAltas1/" tstamps="/cb22272f-cc58-4415-bc90-edc7a2b801fd/"/>
+      <tstamps>411141d1-b9fc-4064-a33b-b2eb88e735cb</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>47nF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="filtroPasaAltas1"/>
+      <property name="Sheetfile" value="filtroPasaAltas.kicad_sch"/>
+      <sheetpath names="/filtroPasaAltas1/" tstamps="/cb22272f-cc58-4415-bc90-edc7a2b801fd/"/>
+      <tstamps>82ce30e0-92df-4dde-b658-fbcfcdf54d81</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="filtroPasaAltas1"/>
+      <property name="Sheetfile" value="filtroPasaAltas.kicad_sch"/>
+      <sheetpath names="/filtroPasaAltas1/" tstamps="/cb22272f-cc58-4415-bc90-edc7a2b801fd/"/>
+      <tstamps>16b9c56a-15ec-4022-91e4-7d80722af8d2</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>2K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="filtroPasaAltas1"/>
+      <property name="Sheetfile" value="filtroPasaAltas.kicad_sch"/>
+      <sheetpath names="/filtroPasaAltas1/" tstamps="/cb22272f-cc58-4415-bc90-edc7a2b801fd/"/>
+      <tstamps>970fb3ef-e874-4ee3-9a59-fb0560dcc41e</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>18K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="filtroPasaAltas1"/>
+      <property name="Sheetfile" value="filtroPasaAltas.kicad_sch"/>
+      <sheetpath names="/filtroPasaAltas1/" tstamps="/cb22272f-cc58-4415-bc90-edc7a2b801fd/"/>
+      <tstamps>29a3b30f-a147-4742-9d12-26347863fd93</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="filtroPasaAltas1"/>
+      <property name="Sheetfile" value="filtroPasaAltas.kicad_sch"/>
+      <sheetpath names="/filtroPasaAltas1/" tstamps="/cb22272f-cc58-4415-bc90-edc7a2b801fd/"/>
+      <tstamps>4744fe98-ad14-477b-9ea0-a264bb5ce259</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TL082</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_LongPads</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tl082-n.pdf</datasheet>
+      <libsource lib="MSS_Operational-Amplifier" part="TL082" description="TL082 Wide Bandwidth Dual JFET Input Operational Amplifier"/>
+      <property name="Sheetname" value="filtroPasaAltas1"/>
+      <property name="Sheetfile" value="filtroPasaAltas.kicad_sch"/>
+      <sheetpath names="/filtroPasaAltas1/" tstamps="/cb22272f-cc58-4415-bc90-edc7a2b801fd/"/>
+      <tstamps>9fe0b520-bfc2-47dc-8d03-9d705dbf91ef</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>47nF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="filtroPasaAltas"/>
+      <property name="Sheetfile" value="filtroPasaAltas.kicad_sch"/>
+      <sheetpath names="/filtroPasaAltas/" tstamps="/5d618a4f-ea7b-45fc-a098-ab73caddb378/"/>
+      <tstamps>411141d1-b9fc-4064-a33b-b2eb88e735cb</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>47nF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="filtroPasaAltas"/>
+      <property name="Sheetfile" value="filtroPasaAltas.kicad_sch"/>
+      <sheetpath names="/filtroPasaAltas/" tstamps="/5d618a4f-ea7b-45fc-a098-ab73caddb378/"/>
+      <tstamps>82ce30e0-92df-4dde-b658-fbcfcdf54d81</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="filtroPasaAltas"/>
+      <property name="Sheetfile" value="filtroPasaAltas.kicad_sch"/>
+      <sheetpath names="/filtroPasaAltas/" tstamps="/5d618a4f-ea7b-45fc-a098-ab73caddb378/"/>
+      <tstamps>16b9c56a-15ec-4022-91e4-7d80722af8d2</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>2K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="filtroPasaAltas"/>
+      <property name="Sheetfile" value="filtroPasaAltas.kicad_sch"/>
+      <sheetpath names="/filtroPasaAltas/" tstamps="/5d618a4f-ea7b-45fc-a098-ab73caddb378/"/>
+      <tstamps>970fb3ef-e874-4ee3-9a59-fb0560dcc41e</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>18K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="filtroPasaAltas"/>
+      <property name="Sheetfile" value="filtroPasaAltas.kicad_sch"/>
+      <sheetpath names="/filtroPasaAltas/" tstamps="/5d618a4f-ea7b-45fc-a098-ab73caddb378/"/>
+      <tstamps>29a3b30f-a147-4742-9d12-26347863fd93</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="filtroPasaAltas"/>
+      <property name="Sheetfile" value="filtroPasaAltas.kicad_sch"/>
+      <sheetpath names="/filtroPasaAltas/" tstamps="/5d618a4f-ea7b-45fc-a098-ab73caddb378/"/>
+      <tstamps>4744fe98-ad14-477b-9ea0-a264bb5ce259</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_Coaxial_x2">
+      <description>double coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+        <fp>*LEMO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial_x2</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN1" type="passive"/>
+        <pin num="2" name="IN2" type="passive"/>
+        <pin num="3" name="EXT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer_Dual">
+      <description>Dual potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer_Dual</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MSS_Operational-Amplifier" part="TL082">
+      <description>TL082 Wide Bandwidth Dual JFET Input Operational Amplifier</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tl082-n.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL082</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tl082-n.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="vcc" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Users\eho28\kicad\kicad-symbols_V6/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Users\eho28\kicad\kicad-symbols_V6/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Users\eho28\kicad\kicad-symbols_V6/Device.kicad_sym</uri>
+    </library>
+    <library logical="MSS_Operational-Amplifier">
+      <uri>C:\Users\eho28\kicad\dhw_symbols/MSS_Operational-Amplifier.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Users\eho28\kicad\kicad-symbols_V6/Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+12V">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="vcc" pintype="input"/>
+      <node ref="U2" pin="8" pinfunction="vcc" pintype="input"/>
+    </net>
+    <net code="2" name="-12V">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="4" pintype="input"/>
+      <node ref="U2" pin="4" pintype="input"/>
+    </net>
+    <net code="3" name="/DERECHO">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pintype="output"/>
+    </net>
+    <net code="4" name="/FiltroPasaBajo/IN_ALL">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="7" pintype="output"/>
+    </net>
+    <net code="5" name="/FiltroPasaBajo/OUT_ALL">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="output"/>
+    </net>
+    <net code="6" name="/IN_L">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="IN1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/IN_R">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="IN2" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="/IZQUIERDO">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U2" pin="7" pintype="output"/>
+    </net>
+    <net code="9" name="/filtroPasaAltas/POT_N">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="RV3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="10" name="/filtroPasaAltas/POT_P">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="RV3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="11" name="/filtroPasaAltas1/POT_N">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="RV3" pin="6" pinfunction="6" pintype="passive"/>
+    </net>
+    <net code="12" name="/filtroPasaAltas1/POT_P">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="RV3" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="13" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="EXT" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="14" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="RV2" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="19" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="20" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="RV2" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="23" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="24" name="unconnected-(RV1-Pad3)">
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="25" name="unconnected-(RV2-Pad3)">
+      <node ref="RV2" pin="3" pinfunction="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(RV2-Pad6)">
+      <node ref="RV2" pin="6" pinfunction="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(RV3-Pad1)">
+      <node ref="RV3" pin="1" pinfunction="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(RV3-Pad4)">
+      <node ref="RV3" pin="4" pinfunction="4" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
