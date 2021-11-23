@@ -4,3 +4,4 @@ Este filtro aun esta en proceso de desarrollo, no me hago responsable de algunos
 
 
 ![filtro pasa alta pasa baja](doc/filtro_pasa-baja-altas.jpg "filtro")
+![filtro pasa alta pasa baja](doc/VISTA_TOP.jpg "filtro")

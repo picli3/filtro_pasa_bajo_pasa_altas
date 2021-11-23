@@ -837,7 +837,7 @@
     (uuid 00000000-0000-0000-0000-000060d9708c)
     (property "Reference" "RV2" (id 0) (at 130.81 104.9782 0))
     (property "Value" "100K" (id 1) (at 130.81 107.2896 0))
-    (property "Footprint" "Potentiometer_THT:Potentiometer_Piher_T-16H_Double_Horizontal" (id 2) (at 137.16 100.965 0)
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK163_Dual_Horizontal" (id 2) (at 137.16 100.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 137.16 100.965 0)
