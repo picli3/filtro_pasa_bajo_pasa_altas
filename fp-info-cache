@@ -1,4 +1,4 @@
-20080463948059364
+20139824996522346
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -5757,6 +5757,27 @@ Capacitor_THT
 C_Rect_L41.5mm_W40.0mm_P37.50mm_MKS4
 C, Rect series, Radial, pin pitch=37.50mm, , length*width=41.5*40mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
 C Rect series Radial pin pitch 37.50mm  length 41.5mm width 40mm Capacitor
+0
+2
+2
+Capacitor_THT
+DX_5R5HxxxxU_D11.5mm_P10.00mm
+CP, Radial series, Radial, pin pitch=10.00mm, diameter=11.5mm, Supercapacitor, http://www.elna.co.jp/en/capacitor/double_layer/catalog/pdf/dx_e.pdf
+CP Radial series Radial pin pitch 10.00mm diameter 11.5mm supercapacitor
+0
+2
+2
+Capacitor_THT
+DX_5R5VxxxxU_D11.5mm_P5.00mm
+CP, Radial series, Radial, pin pitch=5.00mm, diameter=11.5mm, Supercapacitor, http://www.elna.co.jp/en/capacitor/double_layer/catalog/pdf/dx_e.pdf
+CP Radial series Radial pin pitch 5.00mm diameter 11.5mm supercapacitor
+0
+2
+2
+Capacitor_THT
+DX_5R5VxxxxU_D19.0mm_P5.00mm
+CP, Radial series, Radial, pin pitch=5.00mm, diameter=19mm, Supercapacitor, http://www.elna.co.jp/en/capacitor/double_layer/catalog/pdf/dx_e.pdf
+CP Radial series Radial pin pitch 5.00mm diameter 19mm supercapacitor
 0
 2
 2
@@ -56735,6 +56756,27 @@ Connector
 6
 6
 MSS_Connector
+Amphenol_F3XX-A7X1-11008
+
+
+0
+12
+8
+MSS_Connector
+Amphenol_F3XX-A7X1-11016
+
+
+0
+20
+16
+MSS_Connector
+Amphenol_SFW8S-6
+
+
+0
+10
+8
+MSS_Connector
 B02B-XASK-1(LF)(SN)
 
 
@@ -56784,6 +56826,20 @@ BNC_HiroseElectric_BLR-PC-12G
 5
 2
 MSS_Connector
+BatteryHolder_Keystone_3012_1x16mm
+BATTERY RETAINER COIN 16MM SMD
+Keystone type 3000 coin cell retainer
+0
+3
+2
+MSS_Connector
+BatteryHolder_Keystone_3034_1x20mm
+BATTERY RETAINER COIN 20MM SMD
+Keystone type 3000 coin cell retainer
+0
+3
+2
+MSS_Connector
 CIR
 
 
@@ -56797,6 +56853,13 @@ https://media.digikey.com/pdf/Data%20Sheets/Conec%20PDFs/43-01196-99_Dwg.pdf
 0
 5
 5
+MSS_Connector
+CONN_03x01_2.54
+
+
+0
+3
+3
 MSS_Connector
 CR-2477-HFN
 https://na.industrial.panasonic.com/sites/default/pidsa/files/crseriesconfig_datasheets_merged.pdf
@@ -56833,6 +56896,13 @@ DTM13
 12
 12
 MSS_Connector
+DTM13-12P
+
+
+0
+12
+12
+MSS_Connector
 ERM8
 
 
@@ -56853,6 +56923,27 @@ FH12-20S-0.5SVA
 0
 24
 20
+MSS_Connector
+FLEX_FFC_0.5P
+
+
+0
+8
+8
+MSS_Connector
+Flex_8_P1mm
+
+
+0
+8
+8
+MSS_Connector
+GCT_SIM7200
+
+
+0
+14
+6
 MSS_Connector
 GCT_USB3106
 
@@ -56888,6 +56979,13 @@ Through hole pin header THT 2x03 1.00mm double row
 0
 6
 6
+MSS_Connector
+JAE_MicroSD_ST1W008S4
+
+
+0
+12
+8
 MSS_Connector
 JST_PH_S8B-PH-SM4-TB_1x08-1MP_P2.00mm_Horizontal
 JST PH series connector, S8B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
@@ -56952,6 +57050,20 @@ MMT471A315
 9
 9
 MSS_Connector
+MOLEX_1051330001
+
+
+0
+8
+6
+MSS_Connector
+MPD_BA2032SM
+
+
+0
+2
+2
+MSS_Connector
 MXM3
 conector para apalis TK1
 example
@@ -56987,6 +57099,13 @@ Molex_8550-85001
 12
 9
 MSS_Connector
+Molex_52610_2x08_P1.00mm_Vertical
+Molex Pico-Clasp series connector, 501331-0807 (http://www.molex.com/pdm_docs/sd/5013310207_sd.pdf), generated with kicad-footprint-generator
+connector Molex Pico-Clasp side entry
+0
+16
+8
+MSS_Connector
 Molex_5600200320_1x3_P2mm
 
 
@@ -57007,6 +57126,13 @@ NorComp_M12_8-POS
 0
 8
 8
+MSS_Connector
+PCI_Express_miniCard
+PCI_Express_miniCard
+Connector
+0
+54
+54
 MSS_Connector
 Phoenix-1534630
 https://media.digikey.com/pdf/Data%20Sheets/Conec%20PDFs/43-01196-99_Dwg.pdf
@@ -57043,20 +57169,6 @@ QTE-040-01-X-D-XX
 88
 81
 MSS_Connector
-RJ45_Abracon_ARJM11A-MA_Horizontal
-Shielded RJ45 ethernet connector with transformer and POE (https://abracon.com/Magnetics/lan/ARJP11A.PDF)
-ethernet 8p8c transformer poe rj45
-0
-16
-14
-MSS_Connector
-RJ45_Abracon_ARJM11C7-104-AB-EW2
-Shielded RJ45 ethernet connector with transformer and POE
-ethernet 8p8c transformer poe rj45
-0
-16
-14
-MSS_Connector
 RJMG1B
 
 
@@ -57077,6 +57189,13 @@ Connector
 0
 18
 18
+MSS_Connector
+SS-12400-003
+
+
+0
+8
+8
 MSS_Connector
 TEC_FPC_VERT_4pos_p1mm
 
@@ -57238,13 +57357,6 @@ CAMERA
 0
 4
 4
-MSS_Devices
-CDRH127_LD
-
-
-0
-2
-2
 MSS_Devices
 CHS-01A1
 
@@ -57428,12 +57540,12 @@ Inductor
 2
 2
 MSS_Devices
-LCD_LM016L
-
-
+LED_RGB_PLCC-6
+RGB LED PLCC-6
+RGB LED PLCC-6
 0
-18
-18
+6
+6
 MSS_Devices
 LTC-4724JR
 
@@ -57470,12 +57582,47 @@ L_2x1,2
 4
 4
 MSS_Devices
+L_Bourns-SDE0805A_7x7.8mm
+Bourns SRN8040 series SMD inductor 8x8.15mm, https://www.bourns.com/docs/Product-Datasheets/SRN8040.pdf
+Bourns SRN8040 SMD inductor
+0
+2
+2
+MSS_Devices
+L_Bourns_SDR0403
+
+
+0
+2
+2
+MSS_Devices
+L_NPI_W_series
+
+Neosid Inductor NPI SERIES Fixed inductor SMD
+0
+2
+2
+MSS_Devices
+L_Wuerth_HCI-7443
+Inductor, Wuerth Elektronik, Wuerth_HCI-7443, 6.9mmx6.9mm
+inductor Wuerth hci smd
+0
+2
+2
+MSS_Devices
 LogoMS4M
 
 
 0
 0
 0
+MSS_Devices
+MA-Models
+
+
+0
+5
+5
 MSS_Devices
 MBS -1
 
@@ -57560,6 +57707,13 @@ NEO-M8
 0
 24
 24
+MSS_Devices
+OLED_128x64
+
+
+0
+30
+30
 MSS_Devices
 OMEGA_2
 Through hole straight socket strip, 1x16, 2.00mm pitch, single row
@@ -57659,6 +57813,13 @@ QBLP679E-RGB
 6
 6
 MSS_Devices
+QFN-8-1EP_1.7x1.5mm_P0.4mm_EP1x0.4mm
+QFN, 8 Pin (https://www.nxp.com/docs/en/data-sheet/MMZ09332B.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+9
+9
+MSS_Devices
 QFN-24_EP_7x7_Pitch1mm
 
 
@@ -57687,26 +57848,12 @@ Through hole socket strip THT 1x08 2.54mm single row
 8
 8
 MSS_Devices
-RL3720W
+Resonator_SMD_muRata_CSTNE-3Pin_3.2x1.3mm
 
 
 0
-2
-2
-MSS_Devices
-R_1508_3720Metric
-Chip Resistor Wide 1508 (3720 Metric), 0815 Current Sense Thin Film
-resistor
-0
-2
-2
-MSS_Devices
-Raspberry_Pi_Pico
-
-
-0
-43
-43
+3
+3
 MSS_Devices
 S24SP05008PDFA
 S24SP05008PDFA
@@ -57736,12 +57883,12 @@ Connector
 18
 18
 MSS_Devices
-SI3402-X
-
-
+SLP4016P16_1.6x4mm_P0.5mm
+SLP4016P16 16-pin package
+UFDFN 0.5
 0
-21
-21
+24
+17
 MSS_Devices
 SMD-8
 SMD-8 Surface Mount 300mil 8pin Dual In Line Package
@@ -57805,20 +57952,6 @@ CMS SOT
 0
 4
 3
-MSS_Devices
-SOT25
-
-
-0
-5
-5
-MSS_Devices
-SOT26
-
-
-0
-6
-6
 MSS_Devices
 SOT50P160X60-6N
 SOT50P160X60-6N
@@ -57888,7 +58021,7 @@ TL3301AF160QG
 
 0
 4
-2
+4
 MSS_Devices
 TO-263
 
@@ -57940,13 +58073,6 @@ Integrated Circuit
 56
 MSS_Devices
 Toroide_40mm
-
-
-0
-6
-6
-MSS_Devices
-Toroide_42mm
 
 
 0
@@ -58023,6 +58149,13 @@ VSON-8
 13
 9
 MSS_Devices
+WCS1800
+
+
+0
+5
+3
+MSS_Devices
 WE-3221 - 3.50MM
 Molex 734 Male header (for PCBs); Angled solder pin 1 x 1 mm, 734-165 , 5 Pins (http://www.farnell.com/datasheets/2157639.pdf), generated with kicad-footprint-generator
 connector Wago  top entry
@@ -58079,76 +58212,6 @@ logo-andres
 0
 0
 MSS_Devices
-logo-egidium
-
-
-0
-0
-0
-MSS_Devices
-logo-grbl_9x5.6mm
-
-
-0
-0
-0
-MSS_Devices
-logo-grbl_10.2x6.3mm
-
-
-0
-0
-0
-MSS_Devices
-logo-grbl_11.6x7.2mm
-
-
-0
-0
-0
-MSS_Devices
-logo-grbl_13.5x8.4mm
-
-
-0
-0
-0
-MSS_Devices
-logo-mr
-
-
-0
-0
-0
-MSS_Devices
-logo-mr_71x33
-
-
-0
-0
-0
-MSS_Devices
-logo-mr_78x3.6mm
-
-
-0
-0
-0
-MSS_Devices
-logo-mr_silk
-
-
-0
-0
-0
-MSS_Devices
-logo-mr_solder_7.8x3.6mm
-
-
-0
-0
-0
-MSS_Devices
 logo-test-kicad-12.5x11.6
 
 
@@ -58163,40 +58226,12 @@ logo-test-kicad-12.5x11.62
 0
 0
 MSS_Devices
-lu_7.5x10.1mm
-
-
-0
-0
-0
-MSS_Devices
-lu_7x8
-
-
-0
-0
-0
-MSS_Devices
-lu_9.3x12.1mm
-
-
-0
-0
-0
-MSS_Devices
 panel_separe
 
 
 0
 0
 0
-MSS_Devices
-pot_hdk_VG039NCHXT_XX
-
-
-0
-3
-3
 MSS_Devices
 pybj10-m
 

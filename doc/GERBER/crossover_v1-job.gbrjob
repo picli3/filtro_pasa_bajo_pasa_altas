@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "(5.99.0-12960-gccd3a1e6a9)"
+      "Version": "7.0.8-7.0.8~ubuntu22.04.1"
     },
-    "CreationDate": "2021-11-22T21:09:54-05:00"
+    "CreationDate": "2023-10-08T09:38:23-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "crossover_v1",
       "GUID": "63726f73-736f-4766-9572-5f76312e6b69",
-      "Revision": "rev?"
+      "Revision": "v1.0.0"
     },
     "Size": {
       "X": 92.1,
@@ -24,8 +24,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.4,
-      "PadToTrack": 0.4,
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
       "TrackToTrack": 0.4,
       "MinLineWidth": 0.8,
       "TrackToRegion": 0.508,
@@ -74,8 +74,23 @@
       "FilePolarity": "Negative"
     },
     {
+      "Path": "crossover_v1-User_Comments.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "crossover_v1-Edge_Cuts.gbr",
       "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "crossover_v1-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "crossover_v1-B_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Bot",
       "FilePolarity": "Positive"
     }
   ],
